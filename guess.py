@@ -9,7 +9,12 @@ while True:
     if n == guess:
         print("Topdingiz!")
         break
-     guesse += 1   
+
+     guesses += 1   
+
+
+
+
     if guesses >= 3:
         print("Yutqazdingiz ")
         break
