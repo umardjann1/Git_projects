@@ -1,5 +1,7 @@
 import random
 
+print(42/0)
+
 n = random.randint(0, 10)
 guess = int(input("Guess a number between 0 and 10: "))
 
@@ -9,12 +11,7 @@ while True:
     if n == guess:
         print("Topdingiz!")
         break
-
-     guesses += 1   
-
-
-
-
+    guesses = guesses +1
     if guesses >= 3:
         print("Yutqazdingiz ")
         break
